@@ -1,0 +1,37 @@
+header {
+    & .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        p {
+            font-family: $font-title;
+            font-size: $size-title;
+            font-weight: $w-subtitle;
+            margin: 0 auto;
+        }
+    }
+    & .barre {
+        background: $color-secondary;
+        height: 30px;
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 30px;
+            
+        }
+        &__recherche {
+            border: 0;
+            background-color: $color-secondary;
+            outline: none;
+            text-align: justify;
+        }
+        &__bouton {
+            cursor: pointer;
+            border: 0;
+            background-color: $color-secondary;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $font-txt;
+    font-weight: $w-txt;
+    font-size: $size-txt;
+    background: $color-primary;
+}
+
+a {
+    text-decoration: unset;
+    color: $color-primary;
+}
+
+ul {
+    padding: 0;
+    list-style-type : none;
+    color: $color-primary;
+}
+
+main {
+    margin: 10px;
+}
